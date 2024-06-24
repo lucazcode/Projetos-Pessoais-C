@@ -17,7 +17,7 @@ int main(){
 		
 		while(loop2==1){
 				
-			printf("\ncalcular novamente? (1 = sim, 2 = n„o): ");
+			printf("\ncalcular novamente? (1 = sim, 2 = n√£o): ");
 		    scanf("%d", &escolha);
 		    fflush(stdin);
 		
@@ -41,7 +41,7 @@ int main(){
 				
 			else{
 				
-				printf("escolha inv·lida, tente novamente.\n");
+				printf("escolha inv√°lida, tente novamente.\n");
 				continue;	
 				
 			}
@@ -84,7 +84,7 @@ int main(){
 	
 	while(loop==1){
 		
-		printf("insira a operaÁ„o:\n1 = soma\n2 = subtraÁ„o\n3 = multiplicaÁ„o\n4 = divis„o\n\nn˙mero: ");
+		printf("insira a opera√ß√£o:\n1 = soma\n2 = subtra√ß√£o\n3 = multiplica√ß√£o\n4 = divis√£o\n\nn√∫mero: ");
 		scanf("%d", &op);
 		fflush(stdin);
 		
@@ -130,7 +130,7 @@ int main(){
 		
 		else{
 			
-			printf("ERRO: opÁ„o inv·lida.\n\n");
+			printf("ERRO: op√ß√£o inv√°lida.\n\n");
 			continue;
 			
 		}
