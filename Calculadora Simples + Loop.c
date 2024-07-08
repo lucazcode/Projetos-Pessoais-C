@@ -65,13 +65,11 @@ int main(){
 	}
 	
 	while(loop==1){
-		
 		printf("insira a operação:\n1 = soma\n2 = subtração\n3 = multiplicação\n4 = divisão\n\nnúmero: ");
 		scanf("%d", &op);
 		fflush(stdin);
 		
 		if(op==1||op==2||op==3||op==4){
-			
 			printf("insira um valor: ");
 			scanf("%f", &n1);
 			fflush(stdin);
