@@ -2,7 +2,7 @@
 #include <locale.h>
 #include <stdbool.h>
 
-float maior_menor(float num1, float num2, bool *iguais){ // Declara a função com 3 parâmetros
+float maior_menor(float num1, float num2, bool *iguais){ // Declara a funÃ§Ã£o com 3 parÃ¢metros
 	if(num1 > num2){ // Se o par.1 > par.2, declare false para "iguais", retorne o par.1.
 		*iguais = false;
 		return num1;
@@ -11,7 +11,7 @@ float maior_menor(float num1, float num2, bool *iguais){ // Declara a função com
 		*iguais = false;
 		return num2;
 	}
-	else{ // Se os parâmetros forem iguais, declare true para "iguais", retorne o valor 0.0
+	else{ // Se os parÃ¢metros forem iguais, declare true para "iguais", retorne o valor 0.0
 		*iguais = true;
 		return 0.0;
 	}
@@ -23,23 +23,24 @@ int main(){
 	float x, y; // Declara x e y
 	bool iguais; // Declara o valor booleano
 	
-	puts("CONFERIR NÚMERO MAIOR\n");
+	puts("CONFERIR NÃšMERO MAIOR\n");
 	
-	printf("Digite o primeiro número: "); // Guarda o valor de x
+	printf("Digite o primeiro nÃºmero: "); // Guarda o valor de x
 	scanf("%f", &x);
 	
-	printf("\nDigite o segundo número: "); // Guarda o valor de y
+	printf("\nDigite o segundo nÃºmero: "); // Guarda o valor de y
 	scanf("%f", &y);
 	
-	float res = maior_menor(x, y, &iguais); // Define "res" como a chamada da função "maior_menor" utilizando x e y nos parâmetros num1 e num2
+	float res = maior_menor(x, y, &iguais); // Define "res" como a chamada da funÃ§Ã£o "maior_menor" utilizando x e y nos parÃ¢metros num1 e num2
 	
 	if (iguais){ // Se "iguais" retornar true, mostre esta mensagem
-		printf("\nOs números são iguais.");
+		printf("\nOs nÃºmeros sÃ£o iguais.");
 	}
 	else { // se "iguais" retornar false, mostre esta mensagem
-		printf("\nO maior número é: %.2f.", res);
+		printf("\nO maior nÃºmero Ã©: %.2f.", res);
 	}
 	
 	return 0;
 }
 
+// =)!
