@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-int main(){
+int main(int argc,char *argv[]){
 	setlocale(LC_ALL,"Portuguese");
 	
 	int NUM; // Número a se multiplicar
