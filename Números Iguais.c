@@ -17,7 +17,7 @@ float maior_menor(float num1, float num2, bool *iguais){ // Declara a função c
 	}
 }
 
-int main(){
+int main(int argc,char *argv[]){
 	setlocale(LC_ALL,"Portuguese");
 	
 	float x, y; // Declara x e y
