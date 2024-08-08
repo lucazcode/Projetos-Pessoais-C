@@ -11,7 +11,7 @@ int main(int argc,char *argv[]){
 	int i; // Define uma variável int
 	
 	printf("Digite a palavra: ");
-	scanf("%[^/n]",palavra); // Recebe um dado em string do usuário com limite N	
+	scanf("%[^/n]",palavra); // Recebe um dado em string do usuário incluindo espaços	
 	
 	printf("String invertida:");
 	i=strlen(palavra); // Define i como a quantidade de caracteres da palavra
