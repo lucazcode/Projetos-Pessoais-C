@@ -44,7 +44,7 @@ int conta(){ // Define a função "conta"
 		if(op==1||op==2||op==3||op==4||op==5){ // Se "op" == 1, 2, 3, 4 ou 5...
 			if(op==5){ // Se "op" == 5
 				system("cls"); // Limpa o terminal
-				printf("Encerrando programa.");
+				printf("Encerrando programa.\n");
 				system("pause");
 				break; // Quebra o loop, encerrando o programa
 			}
