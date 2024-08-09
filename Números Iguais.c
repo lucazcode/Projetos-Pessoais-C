@@ -39,7 +39,8 @@ int main(int argc,char *argv[]){
 	else { // se "iguais" retornar false, mostre esta mensagem
 		printf("\nO maior número é: %.2f.", res);
 	}
-	
+
+	system("pause");
 	return 0;
 }
 
