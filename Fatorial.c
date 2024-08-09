@@ -21,6 +21,7 @@ int main(int argc,char *argv[]){
 	
 	printf("\n\nresultado: %d", NUM); // Formata o resultado final para o usuário
 
+	system("pause");
 	return 0;
 }
 
