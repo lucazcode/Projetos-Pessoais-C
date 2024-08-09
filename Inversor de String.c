@@ -20,6 +20,7 @@ int main(int argc,char *argv[]){
 		printf("%c",palavra[i]); // Formate a letra da palavra de acordo com a posição de i
 	} // Subtraia i em 1
 
+	system("pause");
 	return 0;
 }
 
